@@ -620,3 +620,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+
+/* Custom LP Code dirty */
+
+.welcome {
+  padding: 1000px auto;
+}
+p,a {
+  font-family: sans-serif;
+}

@@ -7,9 +7,11 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <h1>Impressum</h1>
+    <p>Anzengruberin. Helga-Mari Steininger, Katharina Wiegmann, Lysann Windisch GbR<br /><br /> 
+    Anzengruberstr. 3<br />
+    12043 Berlin</p>
+    <Link to="/">Zurück</Link>
   </Layout>
 )
 

@@ -8,9 +8,16 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { createGlobalStyle } from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
+
+const GlobalStyle = createGlobalStyle`
+  Link {
+    color: black;
+  }
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -38,7 +45,7 @@ const Layout = ({ children }) => {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a> by rosc
         </footer>
       </div>
     </>
