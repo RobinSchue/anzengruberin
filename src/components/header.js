@@ -9,9 +9,9 @@ const Container = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 const Logo = styled.h1`
-  color: red ;
+  color: black;
   text-decoration: none;
-  margin-bottom: 96px;
+  width: 960px;
 `
 
 const Header = ({ siteTitle }) => (
