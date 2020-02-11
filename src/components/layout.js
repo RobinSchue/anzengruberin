@@ -15,7 +15,7 @@ import "./layout.css"
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: #f8f8f8;
+    background-color: #f9c6a2;
     margin: 0;
     padding:0;
   }
@@ -31,11 +31,21 @@ const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
   .content {
-    max-width: 960px;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
-    padding: 0px 1.0875rem 1.45rem;
+    padding: 30px;
   }
   footer {bottom:8px}
+  main {
+    height:100%;
+    width:100%;
+  }
+  @media (min-width: 576px) { 
+    .content {
+    padding: 64px;
+  }
+ }
 `
 
 const Layout = ({ children }) => {
@@ -52,14 +62,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
-      <Header siteTitle={data.site.siteMetadata.title} />
+      {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
       <div className="content">
         <main>{children}</main>
-        <footer>
+        {/* <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a> by rosc
-        </footer>
+        </footer> */}
       </div>
     </>
   )

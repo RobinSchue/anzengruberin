@@ -1,3 +1,21 @@
+@font-face {
+	font-family: "LeMurmure";
+	src: url("../fonts/le-murmure.otf") format("opentype");
+}
+@font-face {
+	font-family: "HKGrotesk-Regular";
+	src: url("../fonts/HKGrotesk-Regular.otf") format("opentype");
+}
+@font-face {
+	font-family: "HKGrotesk-Bold";
+	src: url("../fonts/HKGrotesk-Bold.otf") format("opentype");
+}
+@font-face {
+	font-family: "MinionPro";
+	src: url("../fonts/MinionPro-Regular.otf") format("opentype");
+}
+
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -624,9 +642,76 @@ pre tt:after {
 
 /* Custom LP Code dirty */
 
+
+
 .welcome {
-  padding: 1000px auto;
+display: flex;
+flex-wrap: wrap;
+height: 100%;
+align-items: center;
 }
-p,a {
-  font-family: sans-serif;
+.LogoFontWrapper {
+  padding: auto ;
+  display: block;
+  vertical-align: middle;
 }
+.welcomeintro {
+  align-self: flex-end;
+  width: 100%;
+  margin-bottom: 32px;
+  }
+.contactintro {
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+
+.welcome .LogoFont {
+  display: none;
+  font-family: "LeMurmure", serif;
+  font-size: 25vw;
+  color: #e84f35;
+  text-transform: uppercase;
+}
+.welcome .LogoFont2 {
+  display: inline-block;
+  font-family: "LeMurmure", serif;
+  font-size: 70vw;
+  color: #e84f35;
+  text-transform: uppercase;
+}
+a {
+  border-bottom: 1px solid #163d3c;
+}
+
+.welcome p,a {
+  font-family: "HKGrotesk-Regular", sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  color: #163d3c;
+  margin-bottom: 0;
+}
+
+@media (min-width: 576px) { 
+  .LogoFontWrapper {
+  }
+  .welcomeintro {
+    flex-basis: 50%;
+    }
+  .contactintro {
+    flex-basis: 50%;
+  }
+
+  .welcome .LogoFont {
+    display: inline-block;
+  }
+  .welcome .LogoFont2 {
+    display: none;
+  }
+  .welcome p,a {
+    font-size: 35px;
+  }
+  a {
+    border-bottom:none;
+  }
+ }

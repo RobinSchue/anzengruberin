@@ -8,10 +8,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Start" />
     <section className="welcome">
-      {/* <h1>Coming soon!</h1> */}
-      <p>Willkommen auf der Website der Anzengruberin! Wir brauchen leider noch ein bisschen. Bis ganz bald!</p>
-      <p>Wenn ihr vorher schonmal Kontakt mit uns aufnehmen möchtet, schreibt eine Mail an: <a href="mailto:anzengruberinnen@gmail.com">anzengruberinnen@gmail.com</a></p>
-      <Link to="/page-2/">Impressum</Link>
+      <article className="LogoFontWrapper">
+        <h1 className="LogoFont">Anzengruberin</h1>
+        <h1 className="LogoFont2">Anze</h1>
+      </article>
+      <article className="welcomeintro">
+        <div>
+        <p>Wir eröffnen bald  als Kneipencafé und Coworkingspace in der<br/><br/><a href="https://goo.gl/maps/XAzSkJpCaSU87U6d9">Anzengruberstr 3<br/>12043 Berlin</a></p>
+        </div>
+      </article>
+      <article className="contactintro">
+        <div>
+        <p><a href="mailto:anzengruberinnen@gmx.de">anzengruberinnen@gmx.de</a><br/><a href="https://www.instagram.com/anzengruberin/">Instagram</a>, <a href="https://www.facebook.com/anzengruberin/">Facebook</a></p>
+        </div>
+      </article>
     </section>
   </Layout>
 )
