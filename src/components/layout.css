@@ -672,6 +672,7 @@ align-items: center;
   font-size: 25vw;
   color: #e84f35;
   text-transform: uppercase;
+  font-weight: 400; 
 }
 .welcome .LogoFont2 {
   display: inline-block;
