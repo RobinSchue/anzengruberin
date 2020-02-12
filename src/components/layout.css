@@ -680,6 +680,7 @@ align-items: center;
   font-size: 70vw;
   color: #e84f35;
   text-transform: uppercase;
+  font-weight: 400; 
 }
 a {
   border-bottom: 1px solid #163d3c;
