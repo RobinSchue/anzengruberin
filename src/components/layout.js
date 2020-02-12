@@ -19,11 +19,6 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding:0;
   }
-  header {
-    width: 100%;
-    margin: 0 0 96px 0;
-    padding: 32px 32px;
-  }
   h1 > a {
     color:#1e1e1e;
   }
