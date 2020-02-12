@@ -36,7 +36,7 @@ function SEO({ description, lang, meta, title }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
-          name: `description`,
+          name: `Kneipencafé und Coworkingspace in Neukölln / Berlin`,
           content: metaDescription,
         },
         {
@@ -73,9 +73,9 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `de`,
   meta: [],
-  description: ``,
+  description: `Kneipencafé und Coworkingspace in Neukölln / Berlin`,
 }
 
 SEO.propTypes = {

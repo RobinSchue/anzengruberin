@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Die Anzengruberin`,
-    description: ``,
+    description: `Wir sind ein Kneipencafé und Coworkingspace mitten in Neukölln / Berlin`,
     author: `rosc`,
   },
   plugins: [
@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `die Anzengruberin`,
-        short_name: `anzi`,
+        name: `Die Anzengruberin – Kneipencafé und Coworkingspace in Berlin`,
+        short_name: `Anze`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: ``, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
