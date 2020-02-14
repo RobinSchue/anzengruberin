@@ -19,7 +19,7 @@ const IndexPage = () => (
       </article>
       <article className="contactintro">
         <div>
-        <p><a href="mailto:anzengruberinnen@gmx.de">anzengruberinnen@gmx.de</a><br/><a href="https://www.instagram.com/anzengruberin/">Instagram</a>, <a href="https://www.facebook.com/anzengruberin/">Facebook</a></p>
+        <p><a href="mailto:anzengruberinnen@gmail.com">anzengruberinnen@gmail.com</a><br/><a href="https://www.instagram.com/anzengruberin/">Instagram</a>, <a href="https://www.facebook.com/anzengruberin/">Facebook</a></p>
         </div>
       </article>
     </section>
