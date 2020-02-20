@@ -14,13 +14,15 @@ const IndexPage = () => (
       </article>
       <article className="welcomeintro">
         <div>
-        <p>Wir eröffnen bald  als Kneipencafé und Coworkingspace in der<br/><br/><a href="https://goo.gl/maps/XAzSkJpCaSU87U6d9">Anzengruberstr 3<br/>12043 Berlin</a></p>
+        <p>Kneipencafé und Coworkingspace in der<br/><br/><a href="https://goo.gl/maps/XAzSkJpCaSU87U6d9">Anzengruberstr 3<br/>12043 Berlin</a><br/><br/>Öffnungszeiten:<br/>
+Di & Mi: 10:00-20:00 Uhr<br/>
+Do & Fr: 10:00-02:00 Uhr<br/>
+Sa: 14:00-02:00 Uhr<br/>
+So & Mo: Ruhetage</p>
         </div>
       </article>
       <article className="contactintro">
-        <div>
         <p><a href="mailto:anzengruberinnen@gmail.com">anzengruberinnen@gmail.com</a><br/><a href="https://www.instagram.com/anzengruberin/">Instagram</a>, <a href="https://www.facebook.com/anzengruberin/">Facebook</a></p>
-        </div>
       </article>
     </section>
   </Layout>

@@ -664,6 +664,7 @@ align-items: center;
   align-self: flex-end;
   width: 100%;
   text-align: right;
+  margin-bottom: 32px
 }
 
 .welcome .LogoFont {
@@ -688,10 +689,11 @@ a {
 
 .welcome p,a {
   font-family: "HKGrotesk-Regular", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: normal;
   color: #163d3c;
   margin-bottom: 0;
+  line-height: 1.5;
 }
 
 @media (min-width: 576px) { 
@@ -712,6 +714,7 @@ a {
   }
   .welcome p,a {
     font-size: 35px;
+    line-height: 1.5;
   }
   a {
     border-bottom:none;
