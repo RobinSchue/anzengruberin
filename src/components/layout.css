@@ -720,3 +720,6 @@ a {
     border-bottom:none;
   }
  }
+.cursor {
+  cursor: url('../images/00_anze_handmund_final.svg'), auto;
+}

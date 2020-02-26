@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Start" />
-    <section className="welcome">
+    <section className="welcome cursor">
       <article className="LogoFontWrapper">
         <h1 className="LogoFont">Anzengruberin</h1>
         <h1 className="LogoFont2">Anze</h1>

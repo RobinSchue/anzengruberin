@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: #f9c6a2;
     margin: 0;
-    padding:0;
+    padding: 0;
   }
   h1 > a {
     color:#1e1e1e;
@@ -30,6 +30,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100vh;
     margin: 0 auto;
     padding: 30px;
+    
   }
   footer {bottom:8px}
   main {
